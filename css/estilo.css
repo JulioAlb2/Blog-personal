@@ -1,0 +1,118 @@
+
+.header{
+  width: 100%;
+}
+body{
+  background-color: rgba(255, 255, 255, 0)1;
+  background-image: url("Fondo.png");
+  position: relative;
+  padding-bottom: 5em;
+  min-height: calc(100vh(100px + 100px));
+}
+
+nav{
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  display: inline;
+  background-color: #f1f1f160;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  margin: 0px 0px 70px 100px;
+  text-decoration: none;
+  display: inline; width: 10%; float: left;
+  font-family: 'Space Grotesk', sans-serif;
+  
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #5555552d;
+  color: white;
+}
+
+.section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+
+}
+.section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5 ease;    
+}
+.section img :hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+footer{
+  background-color: #000;
+  width: 100%;
+  position: relative;
+}
+.footerContenedor{
+  width: 100%;
+  padding: 70px 30px 20px;
+  position: absolute;
+  bottom: 0 ;
+
+}
+
+.Iconos{
+  display: flex;
+  justify-content: center;
+}
+.Iconos a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.Iconos a i{
+  font-size: 2em;
+  color: blue;
+  opacity: 0.9;
+
+}
+
+.Iconos a:hover{
+  background-color: white;
+  transition: 0.5s;
+}
+
+.Iconos a:hover i{
+  color: blueviolet;
+}
+.contenido{
+  display: block;
+  float: left;
+}
